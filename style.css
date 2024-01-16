@@ -1,0 +1,90 @@
+.body{
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.header{
+    width:100%;
+    float: left;
+    background-image: url(Images/img12.jpg);
+    background-size: cover;
+    height: 650px;
+}
+.header1{
+    width: 35%;
+    float: left;
+}
+.logo{
+    width:15%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.header2 {
+    width: 65%;
+    float: left;
+    margin-top: -40px;
+    margin-left: 380px;
+}
+.header2 li {
+    display: inline; 
+}   
+.header2 li a {
+    text-decoration: none;
+    padding:  12px;
+    color: white;       
+}
+.active{
+    border-radius: 20px;
+    border: solid blue 2px;
+    padding: 5px;
+    width: 8%;          
+}
+.menu{
+    width: 100%;
+    float: left;
+    margin-top: -360px;
+    margin-left: 450px;
+    color: white;
+}
+.menu h1{
+    font-size: 40px;
+}
+.menu h3{
+    font-size: 15px ;
+    margin-top: -20px;
+    margin-left: 130px;
+}
+.menu  h2{
+    font-size: 20px ;
+    margin-top: -5px;
+    margin-left: 130px;
+}
+.menu p{
+    font-size: 11px ;
+    margin-top: -7px;
+    margin-left: 160px;
+}
+.active1{
+    border-radius: 20px;
+    border: solid blue 2px;
+    padding: 5px;
+    width: 8%;
+    color: white;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;       
+}
+.icons{
+    width: 100%;
+    float: left;  
+    margin-top: -150px; 
+    margin-left: 1050px;
+}
+.icons p{
+    color: white;
+    margin-top: 20px;
+
+}
